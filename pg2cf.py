@@ -26,8 +26,6 @@ import time
 import logging
 import cloudfiles
 
-logging.basicConfig(filename='pg2cf.log', level=logging.DEBUG)
-
 # Database Information
 DB_USER = os.environ.get('DB_USER')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
@@ -40,6 +38,12 @@ BACKUP_PREFIX = os.environ.get('BACKUP_PREFIX')
 USERNAME = os.environ.get('CF_USERNAME')
 API_KEY = os.environ.get('CF_API_KEY')
 CONTAINER_NAME = os.environ.get('CF_BACKUP_CONTAINER')
+
+# Application Settings
+LOG_FILE = os.environ.get('LOG_FILE')
+
+
+logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG)
 
 
 def main():

@@ -1,3 +1,4 @@
 env/
 init.sh
 *.pyc
+*.log
