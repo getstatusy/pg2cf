@@ -121,7 +121,8 @@ def do_backup():
     try:
         ps = subprocess.Popen(
             ['PGPASSWORD=', DB_PASSWORD, 'pg_dump', '-U',
-                DB_USER,  '-Fp', DB_NAME, '-f', destination],
+                DB_USER, '-h', DB_HOST, '-Fp',
+                DB_NAME, '-f', destination],
             stdout=subprocess.PIPE
         )
         output = ps.communicate()[0]
