@@ -28,8 +28,6 @@ import cloudfiles
 
 # Database Information
 DB_USER = os.environ.get('DB_USER')
-DB_PASSWORD = os.environ.get('DB_PASSWORD')
-DB_HOST = os.environ.get('DB_HOST')
 DB_NAME = os.environ.get('DB_NAME')
 BACKUP_PATH = os.environ.get('BACKUP_PATH')
 BACKUP_PREFIX = os.environ.get('BACKUP_PREFIX')
@@ -127,7 +125,6 @@ def do_backup():
         for line in output.splitlines():
             logging.info(line)
     except Exception as e:
-        print e
         logging.error(e)
         sys.exit(1)
     return destination, filename
