@@ -120,8 +120,8 @@ def do_backup():
     logging.info('Backing up {0} to {1}'.format(DB_NAME, destination))
     try:
         ps = subprocess.Popen(
-            ['pg_dump', '-U', DB_USER, '-W',  DB_PASSWORD, '-Fp',
-                DB_NAME, '-f', destination],
+            ['PGPASSWORD=', DB_PASSWORD, 'pg_dump', '-U',
+                DB_USER,  '-Fp', DB_NAME, '-f', destination],
             stdout=subprocess.PIPE
         )
         output = ps.communicate()[0]
