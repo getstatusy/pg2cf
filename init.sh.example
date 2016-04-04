@@ -14,4 +14,4 @@ export CF_API_KEY=''
 export CF_BACKUP_CONTAINER=''
 
 # Application Settings
-export LOG_FILE='pg2cf.log'
+export LOG_FILE=''
