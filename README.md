@@ -2,6 +2,8 @@
 
 Utility program for uploading PostgreSQL backups to RackSpace Cloud Files
 
+[Documentation](http://getstatusy.github.io/pg2cf/)
+
 # Usage
 
 1. Rename `init.sh.example` to `init.sh`
