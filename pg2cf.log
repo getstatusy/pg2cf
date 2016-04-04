@@ -1,0 +1,45 @@
+INFO:root:Backing up None to None/None_2016-04-03_18-06-04
+ERROR:root:global name 'subproccess' is not defined
+ERROR:root:global name 'get_container' is not defined
+INFO:root:Backing up None to None/None_2016-04-03_18-06-43
+ERROR:root:execv() arg 2 must contain only strings
+ERROR:root:global name 'get_container' is not defined
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-07-13
+ERROR:root:global name 'get_container' is not defined
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-07-43
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-07-43 to Rackspace
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-08-23
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-08-23 to Rackspace
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-18-46
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-19-43
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-19-43 to Rackspace
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-23-51
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-23-51 to Rackspace
+ERROR:root:[Errno 21] Is a directory: '/tmp/db_backups/statusy.backup_2016-04-03_18-23-51'
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-25-03
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-25-03 to Rackspace
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-27-52.sql
+ERROR:root:timed out
+ERROR:root:local variable 'conn' referenced before assignment
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-28-55.sql
+ERROR:root:timed out
+ERROR:root:local variable 'conn' referenced before assignment
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-32-07.sql
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-32-07.sql to Rackspace
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-33-21.sql
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-33-21.sql to Rackspace
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-49-50.sql
+ERROR:root:'module' object has no attribute 'PIPEdsd'
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-50-01.sql
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-50-01.sql to Rackspace
+INFO:root:Backup Completed
+INFO:root:Backing up statusy to /tmp/db_backups/statusy.backup_2016-04-03_18-51-51.sql
+INFO:root:Uploading /tmp/db_backups/statusy.backup_2016-04-03_18-51-51.sql to Rackspace
+INFO:root:Backup Completed
