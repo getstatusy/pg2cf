@@ -13,4 +13,4 @@ Utility program for uploading PostgreSQL backups to RackSpace Cloud Files
 
 Depending on where you set the LOG_FILE in `init.sh` you can view the logs of the application to make sure that everything is working with `tail -f $LOG_FILE`
 
-[Production Usage Example](https://github.com/getstatusy/pg2cf/issues)
+[Production Usage Example](https://blog.statusy.co/easily-send-postgresql-backups-to-rackspace-cloud-files-with-pg2cf/)
