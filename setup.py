@@ -33,7 +33,7 @@ def readme():
 
 setup(
     name="pg2cf",
-    version="1.0.1",
+    version="1.0.2",
     description="Performs PostgresSQL dumps and stashes them in CloudFiles",
     long_description=readme(),
     url="https://github.com/getstatusy/pg2cf",
