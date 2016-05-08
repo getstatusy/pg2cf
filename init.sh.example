@@ -13,3 +13,4 @@ export CF_BACKUP_CONTAINER=''
 
 # Application Settings
 export LOG_FILE=''
+export DAYS_TO_KEEP=''
